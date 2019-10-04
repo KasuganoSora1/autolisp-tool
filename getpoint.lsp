@@ -1,4 +1,4 @@
-;浠巆ad鏂囦欢涓鍙栫被鍨嬩负鈥滃潡鍙傜収鈥濈殑鐐瑰潗鏍?
+;从cad中文件获取点坐标 点位“快参考”类型
 (setq points (ssget "X" '((0 . "INSERT"))))
 (setq i 0)
 (setq filepath (getfiled "鏂囦欢鍧愭爣" "" "txt" 1))
