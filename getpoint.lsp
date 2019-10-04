@@ -1,3 +1,4 @@
+;从cad文件中读取类型为“块参照”的点坐�?
 (setq points (ssget "X" '((0 . "INSERT"))))
 (setq i 0)
 (setq filepath (getfiled "文件坐标" "" "txt" 1))
