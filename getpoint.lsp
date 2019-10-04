@@ -1,7 +1,7 @@
 ;从cad中文件获取点坐标 点位“快参考”类型
 (setq points (ssget "X" '((0 . "INSERT"))))
 (setq i 0)
-(setq filepath (getfiled "鏂囦欢鍧愭爣" "" "txt" 1))
+(setq filepath (getfiled "文件" "" "txt" 1))
 (setq file (open filepath "w"))
 (repeat
 	(sslength points)
